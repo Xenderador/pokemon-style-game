@@ -111,7 +111,6 @@ function initBattle() {
     })
   })
 }
-
 function animateBattle() {
   battleAnimationId = window.requestAnimationFrame(animateBattle)
   battleBackground.draw()
